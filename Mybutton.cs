@@ -40,7 +40,7 @@ public class Mybutton : MonoBehaviour {
             case MybuttonVariety.UserChoseFollowGameobjects:
                 if (!ForeGameobject.GetComponent<Collider>())
                 {
-                    Debug.LogError("Check the ForeGameobject`s collider");
+                    Debug.LogError("Check the ForeGameobject`s collider222222222");
                     return;
                 }
                 if (ForeGameobject == null)
