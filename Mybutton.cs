@@ -31,7 +31,7 @@ public class Mybutton : MonoBehaviour {
                 ForeGameobject.SetActive(true);
                 if (!ForeGameobject.GetComponent<Collider>())
                 {
-                    Debug.LogError("Check the ForeGameobject`s collider11111");
+                    Debug.LogError("Check the ForeGameobject`s collider");
                     return;
                 }
                 if (BackGameobject != null)
@@ -40,7 +40,7 @@ public class Mybutton : MonoBehaviour {
             case MybuttonVariety.UserChoseFollowGameobjects:
                 if (!ForeGameobject.GetComponent<Collider>())
                 {
-                    Debug.LogError("Check the ForeGameobject`s collider222222222");
+                    Debug.LogError("Check the ForeGameobject`s collider");
                     return;
                 }
                 if (ForeGameobject == null)
